@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Senioland",
+      title: "Seniorland",
       social: {
         github: "https://github.com/andresflorez16/seniorland",
       },
