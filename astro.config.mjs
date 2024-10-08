@@ -9,12 +9,17 @@ export default defineConfig({
       social: {
         github: "https://github.com/andresflorez16/seniorland",
       },
+      logo: {
+        src: "/src/assets/houston.webp",
+        alt: "Seniorland",
+      },
       sidebar: [
         {
-          label: "Guía",
+          label: "Empieza aquí",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Introducción", slug: "guides/example" },
+            { label: "Introducción", slug: "guides/introduction" },
+            { label: "Conocimientos previos", slug: "guides/previous-knowledge" },
           ],
         },
         {
